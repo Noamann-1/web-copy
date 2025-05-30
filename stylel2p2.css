@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.section-title {
+  font-size: 1.8em;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+#about {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+#education {
+  background-color: #e7f0ff;
+  padding: 20px;
+}
+#skills {
+  background-color: #fef3e0;
+  padding: 20px;
+}
+#projects {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+ul {
+  padding-left: 20px;
+}
+p, li {
+  color: #444;
+}

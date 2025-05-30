@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Workshop Registration - North Campus UoK</title>
+</head>
+<body>
+
+  <h2>North Campus UoK - Workshop Registration</h2>
+
+  <form action="#" method="post">
+
+    <p>
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required>
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+      <label for="contact">Contact Number:</label><br>
+      <input type="tel" id="contact" name="contact" required>
+    </p>
+
+    <p>Gender:<br>
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+    </p>
+
+    <p>
+      <label for="session">Preferred Session:</label><br>
+      <select id="session" name="session" required>
+        <option value="">-- Select a session --</option>
+        <option value="morning">Morning (10AM - 1PM)</option>
+        <option value="afternoon">Afternoon (2PM - 5PM)</option>
+        <option value="evening">Evening (6PM - 9PM)</option>
+      </select>
+    </p>
+
+    <p>Choose Workshops:<br>
+      <input type="checkbox" id="ai" name="workshop" value="AI">
+      <label for="ai">Artificial Intelligence</label><br>
+      <input type="checkbox" id="web" name="workshop" value="Web Development">
+      <label for="web">Web Development</label><br>
+      <input type="checkbox" id="ml" name="workshop" value="Machine Learning">
+      <label for="ml">Machine Learning</label><br>
+      <input type="checkbox" id="iot" name="workshop" value="IoT">
+      <label for="iot">Internet of Things</label>
+    </p>
+
+    <p>
+      <input type="submit" value="Register">
+      <input type="reset" value="Reset">
+    </p>
+
+  </form>
+
+</body>
+</html>

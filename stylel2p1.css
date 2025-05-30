@@ -1,0 +1,33 @@
+body {
+  background-color: #f9f7f3;
+  font-family: 'Georgia', serif;
+  color: #2c2c2c;
+  line-height: 1.8;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: #6b2d2c;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: #8e4c47;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.05em;
+  margin-bottom: 20px;
+  text-align: justify;
+}
